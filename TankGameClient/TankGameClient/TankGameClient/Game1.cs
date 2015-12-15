@@ -262,7 +262,7 @@ namespace TankGameClient
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(new Color(143, 143, 143));
+            GraphicsDevice.Clear(Color.SlateGray); //new Color(143, 143, 143)
             spriteBatch.Begin();
             #region grid
             // drawing the grid of blocks

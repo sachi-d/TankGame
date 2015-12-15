@@ -181,17 +181,6 @@ namespace TankGameClient
         {
             return this.type;
         }
-
-
-
-
-
-
-
-
-
-
-
-
+        
     }
 }
