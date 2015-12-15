@@ -41,12 +41,37 @@ namespace TankGameClient
 
 
         // server
-        TcpClient serv;
-        TcpListener serverListner;
-        Byte[] bytes;
-        String data;
-        String server_ip = "localhost";
-        IPAddress client_ip = IPAddress.Any;
+      //  IPAddress client_ip = IPAddress.Any;
+
+        #region texture objects
+        // declaring game texture objects
+
+        SpriteFont title_f;
+        Vector2 title_position;
+        String title_text;
+        Color title_color;
+
+        // score board title
+        SpriteFont score_title;
+        Vector2 score_title_position;
+        String score_title_text;
+        Color score_title_color;
+
+        // player details
+        SpriteFont player;
+        Vector2 player_position;
+        Vector2 player_points_position;
+        Vector2 player_coins_position;
+        Vector2 player_health_position;
+        String player_name_text;
+        String player_health_text;
+        String player_points_text;
+        String player_coins_text;
+        Color player_color;
+
+        #endregion
+
+
 
         // details about our tank
         string player_id;
@@ -83,6 +108,33 @@ namespace TankGameClient
             }
 
             #endregion
+            #region text objects initializing
+            // creating the title
+            title_position = new Vector2((grid_size+1)*block_pixel_size, 10);
+            title_text = "Tank Game Client Mode ";
+            title_color = Color.White;
+
+            // scoreboard title
+            int title_left = (grid_size+1) * block_pixel_size;
+            score_title_color = Color.Black;
+            score_title_position = new Vector2((grid_size+2) * block_pixel_size, 60);
+            score_title_text = "Score Board";
+
+            // player details
+
+            player_color = Color.Green;
+            player_position = new Vector2(title_left, 100);
+            player_points_position = new Vector2(title_left, 140);
+            player_coins_position = new Vector2(title_left, 180); ;
+            player_health_position = new Vector2(title_left, 220); ;
+            player_name_text = "My Player"+this.player_id;
+            player_coins_text += "My Coins: " ;
+            player_points_text = "My Points: " ;
+            player_health_text = "My Health: " ;
+
+           
+
+            #endregion
 
             Thread handleMsgThread = new Thread(handleMessages);
             handleMsgThread.Start();
@@ -110,6 +162,17 @@ namespace TankGameClient
                 }
             }
 
+            #region text_objects
+            title_f = Content.Load<SpriteFont>("Fonts/title");
+            score_title = Content.Load<SpriteFont>("Fonts/score_board_title");
+
+            // player strings
+
+            player= Content.Load<SpriteFont>("Fonts/player");
+                         
+
+
+            #endregion
             startCommunication();
              
         }
@@ -211,10 +274,20 @@ namespace TankGameClient
                 }
             }
             #endregion
-            spriteBatch.End();
 
+            #region text objects
+            spriteBatch.DrawString(title_f, title_text, title_position, title_color);
+            spriteBatch.DrawString(score_title, score_title_text, score_title_position, score_title_color);
 
+            spriteBatch.DrawString(player, player_name_text, player_position, player_color);
+            spriteBatch.DrawString(player, player_coins_text, player_coins_position, player_color);
+            spriteBatch.DrawString(player, player_health_text, player_health_position, player_color);
+            spriteBatch.DrawString(player, player_points_text, player_points_position, player_color);
+
+            #endregion
             
+            spriteBatch.End();
+                     
 
             base.Draw(gameTime);
         }
@@ -268,7 +341,8 @@ namespace TankGameClient
         {
 
             this.player_id = parts[1];
-         //   player_1_text = "My player: " + this.player_id;
+            player_name_text = "My Player: " + this.player_id;
+        
             // reading bricks
             String brick_map = parts[2];
             String[] bricks = brick_map.Split(';');
@@ -324,9 +398,9 @@ namespace TankGameClient
                        if (String.Compare(player_id, this.player_id) == 0) // if this is our tank
                        {
                            our = true;
-                         //  player_2_text = "My Coins: " + coins;
-                         //  player_3_text = "My Points: " + points;
-                         //  player_4_text = "My Health: " + health;
+                             player_coins_text = "My Coins: " + coins ;
+                             player_points_text = "My Points: " + points; 
+                             player_health_text = "My Health: " + health;
                        }
 
                        blocks[int.Parse(player_log[0]), int.Parse(player_log[1])].change_type(player_id, Content, direction, shotted, health, coins, points, our);
@@ -403,6 +477,8 @@ namespace TankGameClient
               if (String.Compare(player_id, this.player_id) == 0) // if this is our tank
               {
                   our = true;
+                  
+
               }
               blocks[int.Parse(location_str[0]), int.Parse(location_str[1])].change_type(player_id, Content, direction, -100, -100, -100, -100, our);
 
@@ -416,7 +492,7 @@ namespace TankGameClient
                // send server msg to the ai
                ServerMessageArgs serverMessageArgs = new ServerMessageArgs();
                serverMessageArgs.msg = parts[0];
-               Console.WriteLine(parts[0]);
+              // Console.WriteLine(parts[0]);
                newMessage(this, serverMessageArgs);
            }
         #endregion

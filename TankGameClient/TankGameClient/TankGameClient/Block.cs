@@ -18,7 +18,7 @@ namespace TankGameClient
         public Vector2 position;
         public Texture2D texture;
         public Color color;
-        private int ttl;
+        private int remaining_time;
         public int type;
         int define_sec = 1000;
         ContentManager cont;
@@ -33,16 +33,47 @@ namespace TankGameClient
         int points;
 
 
+        public Block()
+        {
+            color = Color.White;
+            remaining_time = -100;
+            type = 0;
+            _timer = new Timer(1000);
+            _timer.Elapsed += new ElapsedEventHandler(reduce_remaining_time);
+            _timer.Enabled = true;
+        }
+
         public Block(Vector2 position)
         {
             color = Color.White;
             this.position = position;
-            ttl = -100;
+            remaining_time = -100; //set default value for remaining time variable for an empty block/bricks/stone/water
             type = 0;
-           // _timer = new Timer(1000);
-           // _timer.Elapsed += new ElapsedEventHandler(reduce_ttl);
-           // _timer.Enabled = true;
+            _timer = new Timer(1000);   //set a timer of eacb block to check in every 1 second whether it contains a lifepack/coin to reduce its time
+            _timer.Elapsed += new ElapsedEventHandler(reduce_remaining_time);
+            _timer.Enabled = true;
         }
+
+        // reduce and reset object in lifepacks and coins
+        public void reduce_remaining_time(object sender, ElapsedEventArgs e)
+        {
+
+            
+            if (this.remaining_time != -100) //if this is a brick/stone/water/empty-block
+            {
+                if (this.remaining_time <= 0)  //if the remaining time of the coin or life pack is exceeded
+                {
+                    this.type = 0;   //make it a empty-block again
+                    texture = this.cont.Load<Texture2D>("Sprites/block");
+                }
+                else  //if the remaining time of coin/life pack has not exceeded
+                {
+
+                    this.remaining_time--; //reduce the remaining time of the coin/life pack by 1 second
+                }
+            }
+        }
+
 
         public virtual void loadContent(ContentManager content)
         {
@@ -57,9 +88,9 @@ namespace TankGameClient
         }
 
 
-        public virtual void change_type(int type, ContentManager content, int ttl)
+        public virtual void change_type(int type, ContentManager content, int remaining_time)
         {
-            //ttl = ttl / define_sec;
+            remaining_time = remaining_time / define_sec;
             // changing the type of the block
             this.type = type;
             // changing the block texture
@@ -79,11 +110,11 @@ namespace TankGameClient
                     break;
                 case 4:
                     texture = content.Load<Texture2D>("Sprites/coin");
-                //    this.ttl = ttl;
+                     this.remaining_time = remaining_time;
                     break;
                 case 5:
                     texture = content.Load<Texture2D>("Sprites/lifePack");
-                  //  this.ttl = ttl;
+                    this.remaining_time = remaining_time;
                     break;
                
             }
@@ -137,6 +168,7 @@ namespace TankGameClient
             this.health = health;
             this.coins = coins;
             this.points = point;
+            this.remaining_time = -100;
         }
 
         public string get_tank_id()

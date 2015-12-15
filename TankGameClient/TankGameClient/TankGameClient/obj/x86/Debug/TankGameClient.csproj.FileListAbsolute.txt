@@ -18,3 +18,7 @@ E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankG
 E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_right.xnb
 E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_up.xnb
 E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\water.xnb
+E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\score_board_title.xnb
+E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\SpriteFont1.xnb
+E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\title.xnb
+E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\player.xnb

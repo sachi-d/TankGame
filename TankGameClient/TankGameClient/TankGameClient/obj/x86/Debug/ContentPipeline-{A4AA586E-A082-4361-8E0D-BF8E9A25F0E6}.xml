@@ -127,6 +127,42 @@
       <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\water.xnb</Output>
       <Time>2015-12-14T20:59:25.6643914+05:30</Time>
     </Item>
+    <Item>
+      <Source>Fonts\score_board_title.spritefont</Source>
+      <Name>Fonts\score_board_title</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\score_board_title.xnb</Output>
+      <Time>2015-12-15T11:37:52.3347334+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\SpriteFont1.spritefont</Source>
+      <Name>Fonts\SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\SpriteFont1.xnb</Output>
+      <Time>2015-12-15T11:00:20.9825409+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\title.spritefont</Source>
+      <Name>Fonts\title</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\title.xnb</Output>
+      <Time>2015-12-15T11:55:46.2759674+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\player.spritefont</Source>
+      <Name>Fonts\player</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\player.xnb</Output>
+      <Time>2015-12-15T12:20:29.1903009+05:30</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{A4AA586E-A082-4361-8E0D-BF8E9A25F0E6}</ContentProjectGUID>
