@@ -25,13 +25,18 @@ namespace TankGameClient
         Timer _timer;
 
         // variables for tanks if there is a tank in the block
-        int direction;
-        String id;
-        int shooted;
-        int health;
+       public  int direction;
+       public String id;
+      public  int shooted;
+      public  int health;
         int coins;
         int points;
+        int value;
 
+        public int getRemaining_time()
+        {
+            return remaining_time;
+        }
 
         public Block()
         {
