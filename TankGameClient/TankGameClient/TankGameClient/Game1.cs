@@ -349,7 +349,7 @@ namespace TankGameClient
             foreach (String brick in bricks)
             {
                 String[] brick_location = brick.Split(',');                
-                blocks[int.Parse(brick_location[0]), int.Parse(brick_location[1])].change_type(1,Content,-100);
+                blocks[int.Parse(brick_location[0]), int.Parse(brick_location[1])].change_type(1,Content,-100,0);
                
                 
             }
@@ -360,7 +360,7 @@ namespace TankGameClient
             foreach (String stone in stones)
             {
                 String[] stone_location = stone.Split(',');
-                blocks[int.Parse(stone_location[0]), int.Parse(stone_location[1])].change_type(2,Content,-100);
+                blocks[int.Parse(stone_location[0]), int.Parse(stone_location[1])].change_type(2,Content,-100,0);
               
             }
 
@@ -370,7 +370,7 @@ namespace TankGameClient
             foreach (String water in waters)
             {
                 String[] water_location = water.Split(',');
-                blocks[int.Parse(water_location[0]), int.Parse(water_location[1])].change_type(3,Content,-100);
+                blocks[int.Parse(water_location[0]), int.Parse(water_location[1])].change_type(3,Content,-100,0);
                
             }
 
@@ -422,7 +422,7 @@ namespace TankGameClient
                        {
                            if (String.Compare(blocks[i, j].get_tank_id(), id) == 0) // if this block contains the tank we need
                            {
-                               blocks[i, j].change_type(0, Content, -100); // change it to an empty block
+                               blocks[i, j].change_type(0, Content, -100,0); // change it to an empty block
                            }
                        }
 
@@ -440,7 +440,7 @@ namespace TankGameClient
                    int life = int.Parse(brick[2]);
                    if (life == 4) // if the brick is destroid
                    {
-                       blocks[x, y].change_type(0, Content, -100); // change it to an empty cell
+                       blocks[x, y].change_type(0, Content, -100,0); // change it to an empty cell
                    }
                   
                }
@@ -450,16 +450,17 @@ namespace TankGameClient
 
 
                String[] location_str = parts[1].Split(',');
-               blocks[int.Parse(location_str[0]), int.Parse(location_str[1])].change_type(4, Content, int.Parse(parts[2]));
 
-               //   int val = int.Parse(parts[3]);
+               int val = int.Parse(parts[3]);
+               blocks[int.Parse(location_str[0]), int.Parse(location_str[1])].change_type(4, Content, int.Parse(parts[2]),val);
+
            }
            private void lifePack_detail(String[] parts)
            {
 
 
                String[] location_str = parts[1].Split(',');
-               blocks[int.Parse(location_str[0]), int.Parse(location_str[1])].change_type(5, Content, int.Parse(parts[2]));
+               blocks[int.Parse(location_str[0]), int.Parse(location_str[1])].change_type(5, Content, int.Parse(parts[2]),0);
 
 
            }

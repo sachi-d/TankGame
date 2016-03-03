@@ -25,18 +25,24 @@ namespace TankGameClient
         Timer _timer;
 
         // variables for tanks if there is a tank in the block
-        int direction;
-        String id;
-        int shooted;
-        int health;
+       public  int direction;
+       public String id;
+      public  int shooted;
+      public  int health;
         int coins;
         int points;
+        int value;
 
+        public int getRemaining_time()
+        {
+            return remaining_time;
+        }
 
         public Block()
         {
             color = Color.White;
             remaining_time = -100;
+            value = 0;
             type = 0;
             _timer = new Timer(1000);
             _timer.Elapsed += new ElapsedEventHandler(reduce_remaining_time);
@@ -48,6 +54,7 @@ namespace TankGameClient
             color = Color.White;
             this.position = position;
             remaining_time = -100; //set default value for remaining time variable for an empty block/bricks/stone/water
+            value = 0; //default value for coin pile values
             type = 0;
             _timer = new Timer(1000);   //set a timer of eacb block to check in every 1 second whether it contains a lifepack/coin to reduce its time
             _timer.Elapsed += new ElapsedEventHandler(reduce_remaining_time);
@@ -88,7 +95,7 @@ namespace TankGameClient
         }
 
 
-        public virtual void change_type(int type, ContentManager content, int remaining_time)
+        public virtual void change_type(int type, ContentManager content, int remaining_time,int value)
         {
             remaining_time = remaining_time / define_sec;
             // changing the type of the block
@@ -111,6 +118,7 @@ namespace TankGameClient
                 case 4:
                     texture = content.Load<Texture2D>("Sprites/coin");
                      this.remaining_time = remaining_time;
+                     this.value = value;
                     break;
                 case 5:
                     texture = content.Load<Texture2D>("Sprites/lifePack");
