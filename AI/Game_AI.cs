@@ -7,15 +7,9 @@ namespace Tank_1.AI
 {
     public class Game_AI
     {
-        public enum Mode
-        {
-            Greedy,
-            Defensive,
-            Offensive  
-        }
-        private Mode mode;
+        private String mode;
         private Map map;
-        int criticalHealth = 50;
+        int criticalHealth = 30;
         private Stack<Cell> path;
         public bool targetComputed = false;
         private Cell target;
@@ -24,7 +18,7 @@ namespace Tank_1.AI
         public Game_AI(Map map)
         {
             this.map = map;
-            mode = Mode.Greedy;
+            mode = "G";
         }
 
         public Map Map
@@ -55,20 +49,20 @@ namespace Tank_1.AI
 
         public void setMode(Player player)
         {
-            if (player.getHealth() == 100)
+            if (player.getHealth() >= 100)
             {
-                mode = Mode.Offensive;
+                mode = "O";
             }
             else if (player.getHealth() <= criticalHealth)
             {
-                mode = Mode.Defensive;
+                mode = "D";
             }
             else{
-                mode = Mode.Greedy;
+                mode ="G";
             }
         }
 
-        public Mode getMode()
+        public String getMode()
         {
             return mode;
         }
@@ -323,7 +317,7 @@ namespace Tank_1.AI
             //Cell Target = null;
             switch (mode)
             {
-                case Mode.Offensive:
+                case "O":
                     Target = getTankTarget(cell);
                     if (Target == null)
                     {
@@ -341,7 +335,7 @@ namespace Tank_1.AI
                         }
                     }
                     break;
-                case Mode.Greedy:
+                case "G":
                     Target = getCoinPileTarget(cell);
                     if (Target == null)
                     {
@@ -359,7 +353,7 @@ namespace Tank_1.AI
                         }
                     }
                     break;
-                case Mode.Defensive:
+                case "D":
                     Target = getLifePackTarget(cell);
                     if (Target == null)
                     {

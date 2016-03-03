@@ -7,17 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\block.xnb</Output>
-      <Time>2015-12-15T20:54:52.4494561+05:30</Time>
-    </Item>
-    <Item>
-      <Source>Sprites\brick.jpg</Source>
-      <Name>Sprites\brick</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\brick.xnb</Output>
-      <Time>2015-12-15T20:54:53.6841221+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\block.xnb</Output>
+      <Time>2015-12-16T19:25:02.4092086+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\coin.jpg</Source>
@@ -25,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\coin.xnb</Output>
-      <Time>2015-12-15T20:54:54.3247557+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\coin.xnb</Output>
+      <Time>2015-12-16T19:25:02.4112237+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\enemy_down.jpg</Source>
@@ -34,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_down.xnb</Output>
-      <Time>2015-12-15T20:54:54.9968329+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_down.xnb</Output>
+      <Time>2015-12-16T19:25:02.4122051+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\enemy_left.jpg</Source>
@@ -43,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_left.xnb</Output>
-      <Time>2015-12-15T20:54:55.4030858+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_left.xnb</Output>
+      <Time>2015-12-16T19:25:02.4142143+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\enemy_right.jpg</Source>
@@ -52,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_right.xnb</Output>
-      <Time>2015-12-15T20:54:55.840908+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_right.xnb</Output>
+      <Time>2015-12-16T19:25:02.416211+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\enemy_up.jpg</Source>
@@ -61,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_up.xnb</Output>
-      <Time>2015-12-15T20:54:56.3096652+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_up.xnb</Output>
+      <Time>2015-12-16T19:25:02.4172147+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\lifePack.jpg</Source>
@@ -70,17 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\lifePack.xnb</Output>
-      <Time>2015-12-15T20:54:56.7471692+05:30</Time>
-    </Item>
-    <Item>
-      <Source>Sprites\stone.jpg</Source>
-      <Name>Sprites\stone</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\stone.xnb</Output>
-      <Time>2015-12-15T20:54:57.1535978+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\lifePack.xnb</Output>
+      <Time>2015-12-16T19:25:02.4182098+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\tank_down.jpg</Source>
@@ -88,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_down.xnb</Output>
-      <Time>2015-12-15T20:54:57.5910748+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_down.xnb</Output>
+      <Time>2015-12-16T19:25:02.4202108+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\tank_left.jpg</Source>
@@ -97,17 +79,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_left.xnb</Output>
-      <Time>2015-12-15T20:54:58.0132167+05:30</Time>
-    </Item>
-    <Item>
-      <Source>Sprites\tank_right.jpg</Source>
-      <Name>Sprites\tank_right</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_right.xnb</Output>
-      <Time>2015-12-15T20:54:58.4507267+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_left.xnb</Output>
+      <Time>2015-12-16T19:25:02.4212111+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\tank_up.jpg</Source>
@@ -115,8 +88,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_up.xnb</Output>
-      <Time>2015-12-15T20:54:58.9195959+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_up.xnb</Output>
+      <Time>2015-12-16T19:25:02.4232121+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Stone.jpg</Source>
+      <Name>Sprites\Stone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\Stone.xnb</Output>
+      <Time>2015-12-16T19:25:02.4192148+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\brick.jpg</Source>
+      <Name>Sprites\brick</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\brick.xnb</Output>
+      <Time>2015-12-16T19:25:02.4102225+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\tank_right.jpg</Source>
+      <Name>Sprites\tank_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_right.xnb</Output>
+      <Time>2015-12-16T19:25:02.4222118+05:30</Time>
     </Item>
     <Item>
       <Source>Sprites\water.jpg</Source>
@@ -124,35 +124,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\water.xnb</Output>
-      <Time>2015-12-15T19:31:29.9449096+05:30</Time>
-    </Item>
-    <Item>
-      <Source>Fonts\score_board_title.spritefont</Source>
-      <Name>Fonts\score_board_title</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\score_board_title.xnb</Output>
-      <Time>2015-12-15T11:37:52.3347334+05:30</Time>
-    </Item>
-    <Item>
-      <Source>Fonts\SpriteFont1.spritefont</Source>
-      <Name>Fonts\SpriteFont1</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\SpriteFont1.xnb</Output>
-      <Time>2015-12-15T11:00:20.9825409+05:30</Time>
-    </Item>
-    <Item>
-      <Source>Fonts\title.spritefont</Source>
-      <Name>Fonts\title</Name>
-      <Importer>FontDescriptionImporter</Importer>
-      <Processor>FontDescriptionProcessor</Processor>
-      <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\title.xnb</Output>
-      <Time>2015-12-15T11:55:46.2759674+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\water.xnb</Output>
+      <Time>2015-12-16T19:25:02.4242128+05:30</Time>
     </Item>
     <Item>
       <Source>Fonts\player.spritefont</Source>
@@ -160,8 +133,35 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\player.xnb</Output>
-      <Time>2015-12-15T12:20:29.1903009+05:30</Time>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\player.xnb</Output>
+      <Time>2015-12-16T19:25:02.4041995+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\score_board_title.spritefont</Source>
+      <Name>Fonts\score_board_title</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\score_board_title.xnb</Output>
+      <Time>2015-12-16T19:25:02.4072208+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\SpriteFont1.spritefont</Source>
+      <Name>Fonts\SpriteFont1</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\SpriteFont1.xnb</Output>
+      <Time>2015-12-16T19:25:02.4021993+05:30</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\title.spritefont</Source>
+      <Name>Fonts\title</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\title.xnb</Output>
+      <Time>2015-12-16T19:25:02.4082053+05:30</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -170,10 +170,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClientContent\</RootDirectory>
-      <LoggerRootDirectory>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\</LoggerRootDirectory>
-      <IntermediateDirectory>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClientContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -201,8 +201,8 @@
         <Value>2011-09-01T16:22:30+05:30</Value>
       </Assembly>
       <Assembly>
-        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2015-11-13T14:14:35.1907705+05:30</Value>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-12-03T19:44:34.070589+05:30</Value>
       </Assembly>
     </Assemblies>
   </Asset>

@@ -22,3 +22,27 @@ E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankG
 E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\SpriteFont1.xnb
 E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\title.xnb
 E:\semester 4 -2015\prog_challenge2\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\player.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\block.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\coin.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_down.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_left.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_right.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\enemy_up.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\lifePack.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_down.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_left.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_up.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\Stone.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\brick.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\tank_right.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Sprites\water.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\player.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\score_board_title.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\SpriteFont1.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\Content\Fonts\title.xnb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\TankGameClient.exe
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\bin\x86\Debug\TankGameClient.pdb
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\obj\x86\Debug\TankGameClient.csprojResolveAssemblyReference.cache
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\obj\x86\Debug\TankGameClient.exe
+C:\Users\TOSHIBA\Documents\GitHub\TankGame\TankGameClient\TankGameClient\TankGameClient\obj\x86\Debug\TankGameClient.pdb
